@@ -328,6 +328,195 @@ const BLOG = {
       url: 'https://r2.520717.xyz/Music/Aimer-%E7%99%BD%E8%89%B2%E8%9C%89%E8%9D%A3.mp3',
       cover:
         'https://r2.520717.xyz/Cover/%E7%99%BD%E8%89%B2%E8%9C%89%E8%9D%A3.jpg'
+    },
+    {
+      name: 'マリーゴールド',
+      artist: 'Aimyon',
+      url: 'https://r2.520717.xyz/Music/Aimyon-%E3%83%9E%E3%83%AA%E3%83%BC%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E3%83%9E%E3%83%AA%E3%83%BC%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89.jpg'
+    },
+    {
+      name: 'Happy Birthday',
+      artist: 'Back Number',
+      url: 'https://r2.520717.xyz/Music/Back%20Number-Happy%20Birthday.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/MAGIC.jpg'
+    },
+    {
+      name: 'I Love You',
+      artist: 'Back Number',
+      url: 'https://r2.520717.xyz/Music/Back%20Number-I%20Love%20You.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E3%83%A6%E3%83%BC%E3%83%A2%E3%82%A2.jpg'
+    },
+    {
+      name: 'ベルベットの詩',
+      artist: 'Back Number',
+      url: 'https://r2.520717.xyz/Music/Back%20Number-%E3%83%99%E3%83%AB%E3%83%99%E3%83%83%E3%83%88%E3%81%AE%E8%A9%A9.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E3%83%A6%E3%83%BC%E3%83%A2%E3%82%A2.jpg'
+    },
+    {
+      name: '水平線',
+      artist: 'Back Number',
+      url: 'https://r2.520717.xyz/Music/Back%20Number-%E6%B0%B4%E5%B9%B3%E7%B7%9A.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E3%83%A6%E3%83%BC%E3%83%A2%E3%82%A2.jpg'
+    },
+    {
+      name: '原來愛情這麼傷',
+      artist: '梁咏琪',
+      url: 'https://r2.520717.xyz/Music/Gigi%20Leung-%E5%8E%9F%E4%BE%86%E6%84%9B%E6%83%85%E9%80%99%E9%BA%BC%E5%82%B7.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E7%B5%A6%E8%87%AA%E5%B7%B1%E7%9A%84%E6%83%85%E6%AD%8C.jpg'
+    },
+    {
+      name: '灰姑娘',
+      artist: '梁咏琪',
+      url: 'https://r2.520717.xyz/Music/Gigi%20Leung-%E7%81%B0%E5%A7%91%E5%A8%98.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/Fireworks.jpg'
+    },
+    {
+      name: '胆小鬼',
+      artist: '梁咏琪',
+      url: 'https://r2.520717.xyz/Music/Gigi%20Leung-%E8%86%BD%E5%B0%8F%E9%AC%BC.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E9%A0%86%E6%99%82%E9%87%9D.jpg'
+    },
+    {
+      name: '天使にふれたよ!',
+      artist: '放課後ティータイム',
+      url: 'https://r2.520717.xyz/Music/Houkago%20Teatime-%E5%A4%A9%E4%BD%BF%E3%81%AB%E3%81%B5%E3%82%8C%E3%81%9F%E3%82%88!.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E5%A4%A9%E4%BD%BF%E3%81%AB%E3%81%B5%E3%82%8C%E3%81%9F%E3%82%88!.jpg'
+    },
+    {
+      name: '晴天',
+      artist: '周杰伦',
+      url: 'https://r2.520717.xyz/Music/Jay%20Chou-%E6%99%B4%E5%A4%A9.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E8%91%89%E6%83%A0%E7%BE%8E.jpg'
+    },
+    {
+      name: 'トリセツ',
+      artist: '西野加奈',
+      url: 'https://r2.520717.xyz/Music/Kana%20Nishino-%E3%83%88%E3%83%AA%E3%82%BB%E3%83%84.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/Just%20LOVE.jpg'
+    },
+    {
+      name: '渡月橋 ～君 想ふ～',
+      artist: '仓木麻衣',
+      url: 'https://r2.520717.xyz/Music/Mai%20Kuraki-%E6%B8%A1%E6%9C%88%E6%A9%8B%20%EF%BD%9E%E5%90%9B%20%E6%83%B3%E3%81%B5%EF%BD%9E.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E6%B8%A1%E6%9C%88%E6%A9%8B%20%EF%BD%9E%E5%90%9B%20%E6%83%B3%E3%81%B5%EF%BD%9E.jpg'
+    },
+    {
+      name: 'Letter',
+      artist: 'SHE'S',
+      url: https://r2.520717.xyz/Music/SHE'S-Letter.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/Tragicomedy.jpg'
+    },
+    {
+      name: 'ひみつスタジオ',
+      artist: 'SPITZ',
+      url: 'https://r2.520717.xyz/Music/SPITZ-%E7%BE%8E%E3%81%97%E3%81%84%E9%B0%AD.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E3%81%B2%E3%81%BF%E3%81%A4%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA.jpg'
+    },
+    {
+      name: 'アイドル',
+      artist: 'YOASOBI',
+      url: 'https://r2.520717.xyz/Music/YOASOBI-%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB.jpg'
+    },
+    {
+      name: '恋泥棒',
+      artist: '『ユイカ』',
+      url: 'https://r2.520717.xyz/Music/Yuika-Koidorobou.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/Koidorobou.jpg'
+    },
+    {
+      name: 'Sukidakara',
+      artist: '『ユイカ』',
+      url: 'https://r2.520717.xyz/Music/Yuika-Sukidakara.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/Sukidakara.jpg'
+    },
+    {
+      name: '我怀念的',
+      artist: '孙燕姿',
+      url: 'https://r2.520717.xyz/Music/%E5%AD%99%E7%87%95%E5%A7%BF-%E6%88%91%E6%80%80%E5%BF%B5%E7%9A%84.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E9%80%86%E5%85%89.jpg'
+    },
+    {
+      name: '遇到',
+      artist: '方雅贤',
+      url: 'https://r2.520717.xyz/Music/%E6%96%B9%E9%9B%85%E8%B3%A2-%E9%81%87%E5%88%B0.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E6%83%A1%E4%BD%9C%E5%8A%87%E4%B9%8B%E5%90%BB.jpg'
+    },
+    {
+      name: '情歌',
+      artist: '梁静茹',
+      url: 'https://r2.520717.xyz/Music/%E6%A2%81%E9%9D%9C%E8%8C%B9-%E6%83%85%E6%AD%8C.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E5%88%A5%E5%86%8D%E7%82%BA%E4%BB%96%E6%B5%81%E6%B7%9A.jpg'
+    },
+    {
+      name: '全世界的人都知道',
+      artist: '王俞勻',
+      url: 'https://r2.520717.xyz/Music/%E7%8E%8B%E4%BF%9E%E5%8B%BB-%E5%85%A8%E4%B8%96%E7%95%8C%E7%9A%84%E4%BA%BA%E9%83%BD%E7%9F%A5%E9%81%93.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E6%83%A1%E4%BD%9C%E5%8A%87%E4%B9%8B%E5%90%BB.jpg'
+    },
+    {
+      name: '恶作剧',
+      artist: '王蓝茵',
+      url: 'https://r2.520717.xyz/Music/%E7%8E%8B%E8%93%9D%E8%8C%B5-%E6%83%A1%E4%BD%9C%E5%8A%87.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E6%83%A1%E4%BD%9C%E5%8A%87%E4%B9%8B%E5%90%BB.jpg'
+    },
+    {
+      name: 'みちしるべ',
+      artist: '茅原実里',
+      url: 'https://r2.520717.xyz/Music/%E8%8C%85%E5%8E%9F%E5%AE%9F%E9%87%8C-%E3%81%BF%E3%81%A1%E3%81%97%E3%82%8B%E3%81%B9.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E3%81%BF%E3%81%A1%E3%81%97%E3%82%8B%E3%81%B9.jpg'
+    },
+    {
+      name: '一直很安靜',
+      artist: '阿桑',
+      url: 'https://r2.520717.xyz/Music/%E9%98%BF%E6%A1%91-%E4%B8%80%E7%9B%B4%E5%BE%88%E5%AE%89%E9%9D%9C.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E5%AF%82%E5%AF%9E%E5%9C%A8%E5%94%B1%E6%AD%8C.jpg'
+    },
+    {
+      name: '寂寞在唱歌',
+      artist: '阿桑',
+      url: 'https://r2.520717.xyz/Music/%E9%98%BF%E6%A1%91-%E5%AF%82%E5%AF%9E%E5%9C%A8%E5%94%B1%E6%AD%8C.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E5%AF%82%E5%AF%9E%E5%9C%A8%E5%94%B1%E6%AD%8C.jpg'
+    },
+    {
+      name: '乙女どもよ。',
+      artist: '高嶺のなでしこ',
+      url: 'https://r2.520717.xyz/Music/%E9%AB%98%E5%B6%BA%E3%81%AE%E3%81%AA%E3%81%A7%E3%81%97%E3%81%93-%E4%B9%99%E5%A5%B3%E3%81%A9%E3%82%82%E3%82%88%E3%80%82.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E4%B9%99%E5%A5%B3%E3%81%A9%E3%82%82%E3%82%88%E3%80%82.jpg'
+    },
+    {
+      name: '可愛くてごめん',
+      artist: '高嶺のなでしこ',
+      url: 'https://r2.520717.xyz/Music/%E9%AB%98%E5%B6%BA%E3%81%AE%E3%81%AA%E3%81%A7%E3%81%97%E3%81%93-%E5%8F%AF%E6%84%9B%E3%81%8F%E3%81%A6%E3%81%94%E3%82%81%E3%82%93.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E5%8F%AF%E6%84%9B%E3%81%8F%E3%81%A6%E3%81%94%E3%82%81%E3%82%93.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
