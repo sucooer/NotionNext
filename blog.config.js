@@ -415,7 +415,7 @@ const BLOG = {
     },
     {
       name: 'Letter',
-      artist: 'SHE'S',
+      artist: 'SHES',
       url: https://r2.520717.xyz/Music/SHE'S-Letter.mp3',
       cover:
         'https://r2.520717.xyz/Cover/Tragicomedy.jpg'
