@@ -309,18 +309,25 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
-      name: '风を共に舞う気持ち',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
+      name: '時雨',
+      artist: '川嶋あい',
+      url: 'https://r2.520717.xyz/Music/Ai%20Kawashima-%E6%99%82%E9%9B%A8.mp3',
       cover:
-        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+        'https://r2.520717.xyz/Cover/Piano%20Songs~%E8%B7%AF%E4%B8%8A%E9%9B%862%E5%8F%B7~.jpg'
     },
     {
-      name: '王都グランセル',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
+      name: '残響散歌',
+      artist: 'Aimer',
+      url: 'https://r2.520717.xyz/Music/Aimer-%E6%AE%8B%E9%9F%BF%E6%95%A3%E6%AD%8C.mp3',
       cover:
-        'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+        'https://r2.520717.xyz/Cover/%E6%AE%8B%E9%9F%BF%E6%95%A3%E6%AD%8C.jpg'
+    },
+    {
+      name: '白色蜉蝣',
+      artist: 'Aimer',
+      url: 'https://r2.520717.xyz/Music/Aimer-%E7%99%BD%E8%89%B2%E8%9C%89%E8%9D%A3.mp3',
+      cover:
+        'https://r2.520717.xyz/Cover/%E7%99%BD%E8%89%B2%E8%9C%89%E8%9D%A3.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
