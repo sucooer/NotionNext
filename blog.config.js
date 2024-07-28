@@ -517,6 +517,13 @@ const BLOG = {
       url: 'https://r2.520717.xyz/Music/%E9%AB%98%E5%B6%BA%E3%81%AE%E3%81%AA%E3%81%A7%E3%81%97%E3%81%93-%E5%8F%AF%E6%84%9B%E3%81%8F%E3%81%A6%E3%81%94%E3%82%81%E3%82%93.mp3',
       cover:
         'https://r2.520717.xyz/Cover/%E5%8F%AF%E6%84%9B%E3%81%8F%E3%81%A6%E3%81%94%E3%82%81%E3%82%93.jpg'
+    },
+    {
+      name: '振り子',
+      artist: 'Uru',
+      url: 'https://r2.520717.xyz/Music/Uru%20-%20%E6%8C%AF%E3%82%8A%E5%AD%90.mp3',
+      cover: 
+        'https://r2.520717.xyz/Cover/%E6%8C%AF%E3%82%8A%E5%AD%90.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
