@@ -36,11 +36,16 @@ const BlogPost = (props) => {
             data-aos-anchor-placement="top-bottom"
             key={post?.id} className='cursor-pointer relative mb-4 break-inside-avoid rounded-lg overflow-hidden'>
 
-            <LazyImage src={pageThumbnail} className='w-full h-auto object-cover filter contrast-120' />
+            <LazyImage src={pageThumbnail} className='w-full h-auto object-cover' />
 
-            <h2 className="text-md absolute left-0 bottom-0 m-4 text-gray-100 shadow-text">
-                {siteConfig('POST_TITLE_ICON') && <NotionIcon icon={post.pageIcon} />} {post?.title}
-            </h2>
+            <div className='plog-card-overlay'>
+                <h2 className="text-md text-gray-100 shadow-text">
+                    {siteConfig('POST_TITLE_ICON') && <NotionIcon icon={post.pageIcon} />} {post?.title}
+                </h2>
+                <p className='text-xs text-gray-300 mt-1'>
+                    {post?.publishDate || post?.date?.start_date}
+                </p>
+            </div>
             {post?.category && <div className='text-xs rounded-lg absolute left-0 top-0 m-4 px-2 py-1 bg-gray-200 dark:bg-black dark:bg-opacity-25 hover:bg-blue-700 hover:text-white duration-200'>
                 <SmartLink href={`/category/${post?.category}`}>
                 {post?.category}

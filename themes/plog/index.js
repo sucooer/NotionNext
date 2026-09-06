@@ -13,7 +13,6 @@ import { ArticleFooter } from './components/ArticleFooter'
 import { ArticleInfo } from './components/ArticleInfo'
 import { ArticleLock } from './components/ArticleLock'
 import BlogArchiveItem from './components/BlogArchiveItem'
-import { BlogListPage } from './components/BlogListPage'
 import { BlogListScroll } from './components/BlogListScroll'
 import BottomNav from './components/BottomNav'
 import Modal from './components/Modal'
@@ -110,15 +109,8 @@ const LayoutIndex = props => {
  * @returns
  */
 const LayoutPostList = props => {
-  return (
-    <>
-      {siteConfig('POST_LIST_STYLE') === 'page' ? (
-        <BlogListPage {...props} />
-      ) : (
-        <BlogListScroll {...props} />
-      )}
-    </>
-  )
+  // 本主题采用下拉自动加载(无限滚动)，不使用分页
+  return <BlogListScroll {...props} />
 }
 
 /**
