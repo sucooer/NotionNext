@@ -69,11 +69,12 @@ export async function getStaticProps(req) {
   )
 
   // 处理分页
-  const POST_LIST_STYLE = siteConfig(
-    'POST_LIST_STYLE',
-    'page',
-    props?.NOTION_CONFIG
-  )
+  // plog 主题内置无限滚动列表（不随全局开关切分页），数据层必须返回全部文章
+  const theme = siteConfig('THEME', BLOG.THEME, props?.NOTION_CONFIG)
+  const POST_LIST_STYLE =
+    theme === 'plog'
+      ? 'scroll'
+      : siteConfig('POST_LIST_STYLE', 'page', props?.NOTION_CONFIG)
   if (POST_LIST_STYLE === 'scroll') {
     // 滚动列表默认给前端返回所有数据
   } else if (POST_LIST_STYLE === 'page') {
