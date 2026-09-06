@@ -13,6 +13,21 @@ const Style = () => {
         background-color: black;
     }
 
+    // 瀑布流卡片：图片加载前占位底色，避免闪烁与突兀空白
+    #theme-plog #posts-wrapper article{
+        background-color: #f3f4f6;
+    }
+    .dark #theme-plog #posts-wrapper article{
+        background-color: #111827;
+    }
+    #theme-plog #posts-wrapper article img{
+        display: block;
+        transition: opacity .3s ease-in-out;
+    }
+    #theme-plog #posts-wrapper article img.lazy-image-placeholder{
+        opacity: 0;
+    }
+
       ${themeConsoleStyle('plog', CONFIG)}
   `}</style>
 }

@@ -34,9 +34,9 @@ const BlogPost = (props) => {
             data-aos-duration="500"
             data-aos-once="true"
             data-aos-anchor-placement="top-bottom"
-            key={post?.id} className='cursor-pointer relative'>
+            key={post?.id} className='cursor-pointer relative mb-4 break-inside-avoid rounded-lg overflow-hidden'>
 
-            <LazyImage src={pageThumbnail} className='aspect-[16/9] w-full h-full object-cover filter contrast-120' />
+            <LazyImage src={pageThumbnail} className='w-full h-auto object-cover filter contrast-120' />
 
             <h2 className="text-md absolute left-0 bottom-0 m-4 text-gray-100 shadow-text">
                 {siteConfig('POST_TITLE_ICON') && <NotionIcon icon={post.pageIcon} />} {post?.title}
