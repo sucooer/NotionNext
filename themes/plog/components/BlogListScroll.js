@@ -26,6 +26,8 @@ export const BlogListScroll = props => {
   }, [hasMore])
 
   // 哨兵元素：进入视口前 600px 即预加载下一批，滚动无感
+  // 依赖 page：每加载一批后重新 observe，使哨兵若仍在视口内可继续触发，
+  // 否则越过预载区后只触发一次，会导致后续文章不再加载
   const sentinelRef = useRef(null)
   useEffect(() => {
     const sentinel = sentinelRef.current
@@ -42,7 +44,7 @@ export const BlogListScroll = props => {
     )
     observer.observe(sentinel)
     return () => observer.disconnect()
-  }, [handleGetMore])
+  }, [page, handleGetMore])
 
   // 新卡片渲染后刷新 AOS，让追加的卡片也有入场动画
   useEffect(() => {

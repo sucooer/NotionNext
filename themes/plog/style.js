@@ -26,8 +26,8 @@ const Style = () => {
                     scale .4s cubic-bezier(0.25, 0.46, 0.45, 0.94),
                     filter .5s ease;
         will-change: transform;
-        /* 常态灰度 + 对比度，悬浮时渐变为彩色 */
-        filter: grayscale(1) contrast(1.2);
+        /* 图片常驻彩色，保留轻微对比度增强 */
+        filter: contrast(1.2);
         /* Ken Burns 慢速推拉(transform 关键帧，与 scale 属性独立复合，互不冲突) */
         animation: plog-kenburns 24s ease-in-out infinite alternate;
     }
@@ -64,7 +64,7 @@ const Style = () => {
         }
     }
 
-    /* 卡片悬浮动画：图片平滑放大 + 阴影加深 + 灰度转彩色
+    /* 卡片悬浮动画：图片平滑放大 + 阴影加深
        放大用独立 scale 属性(与 Ken Burns 的 transform 动画复合)，
        全部走合成层属性，不触发回流，无布局抖动 */
     #theme-plog #posts-wrapper article{
@@ -75,7 +75,7 @@ const Style = () => {
     }
     #theme-plog #posts-wrapper article:hover img:not(.lazy-image-placeholder){
         scale: 1.05;
-        filter: grayscale(0) contrast(1.2);
+        filter: contrast(1.2);
     }
     @media (prefers-reduced-motion: reduce){
         #theme-plog #posts-wrapper article,
